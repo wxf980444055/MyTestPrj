@@ -56,7 +56,8 @@ void main011()
 
 	char **p2 = NULL;
 
-	p = 0x767; // 直接修改p的值
+	p = 0x454; // 直接修改p的值
+
 	printf("p:%x \n", p);
 
 	p2 = &p ;
@@ -67,6 +68,7 @@ void main011()
 	printf("p:%x \n", p);
 
 	getMemBuf(&p);
+	nihaoya
 	printf("p:%x \n", p);
 
 	system("pause");
