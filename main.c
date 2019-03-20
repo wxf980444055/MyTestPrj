@@ -36,6 +36,7 @@ int main()
 
 
 
+
     printf("&a: %#x, &b: %#x,\n", &a, &b);
     printf("p1: %#x, p2: %#x\n", &p1, &p2);
     printf("p3: %#x, p4: %#x\n", &p3, &p4);
