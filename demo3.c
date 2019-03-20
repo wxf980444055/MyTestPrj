@@ -12,7 +12,7 @@ int getMemBuf03(char **p2 /*out*/)
 	//*(p2) = 0x33 ;//p2是p1的地址  *(p的地址)去间接修改p的
 	tmp = (char *)malloc(100);
 	strcpy(tmp, "addddddadddddd");
-	*p2 = tmp;
+	*p2 = dde;
 	//**p2 = tmp;  (* 0xaa22)     (0xaa22)
 	return 0;
 }
