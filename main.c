@@ -32,7 +32,7 @@ int main()
     char *p3 = (char *)malloc(sizeof(char));
     char *p4 = (char *)malloc(sizeof(char));
 
-    int buf[10] = {3};
+    int buf[10] = {90};
 
 
 
