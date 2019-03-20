@@ -5,6 +5,7 @@
 struct Teacher 
 {
 	char name[32];
+	char hah[32];
 	int age ;
 };
 
