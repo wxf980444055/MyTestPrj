@@ -16,7 +16,9 @@ void main01()
 	p =  &a;
 
 	a = 1; //直接修改a的值
+
 	*p = 545; // p是a的地址 *（a的地址）去间接修改a的值
+
 
 	
 	 getLen(&a);
@@ -53,6 +55,7 @@ void main011()
 	char *        p = NULL;
 
 	char **p2 = NULL;
+
 	p = 0x767; // 直接修改p的值
 	printf("p:%x \n", p);
 
