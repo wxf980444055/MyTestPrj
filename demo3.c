@@ -15,7 +15,7 @@ int getMemBuf03(char **p2 /*out*/)
 
 	*p2 = pppp;
 
-	//**p2 = tmp;  (* 0xaa22)     (0xaa22)
+	**p2 = tmp;  (* 0xaa22)     (0xaa22)
 	return 0;
 }
 
